@@ -1,55 +1,21 @@
 cff-version: 1.2.0
-message: >-
-  If you use this dataset in your research, please cite it using
-  the metadata from this file.
+message: "If you use this dataset, please cite it as below."
 type: dataset
-title: >-
-  JSE-Eskom Infrastructure-Coupled Financial Network Dataset:
-  Hypergraph Edge Weights, Grid Dispatch Signals, and Adversarial
-  Stress Events (IST-02 and IST-03 Series)
-abstract: >-
-  Daily and intraday hypergraph edge-weight time series linking
-  87 JSE-listed securities across 11 GICS sectors to 34 Eskom
-  transmission grid nodes, spanning January 2015 to December 2025
-  (T = 2,870 trading days, |E| = 340 hyperedges). Constructed from
-  Yahoo Finance equity data and publicly available Eskom Grid Code
-  dispatch records. Supports two interconnected research series:
-  (1) IST-02 (Infrastructure-Stressed Topology): CASCADEnt/VORTEX
-  framework papers on trophic downgrading and ecological collapse in
-  financial hypergraphs, targeting Quantitative Finance and Economics;
-  (2) IST-03 (Infrastructure-Stressed Thermodynamics): nine-paper
-  series on large deviation theory and adversarial detection in
-  physics-constrained financial networks, targeting Physical Review E
-  and related APS journals. Includes benchmark adversarial perturbation
-  runs (PGD, epsilon in {0.01, 0.05, 0.10, 0.20}) against LSTM,
-  GraphSAGE, and Wasserstein autoencoder surrogate models for the
-  test window July-December 2022. Version 1.0.0 covers January
-  2015 to December 2025; a post-June 2025 update will extend the
-  time series as v2.0.0.
+title: "IST02-IST03 JSE-Eskom Infrastructure-Coupled Financial Network Dataset"
+version: 1.0.2
+date-released: 2026-03-08
 authors:
   - family-names: Moroke
     given-names: Ntebogang Dinah
-    orcid: 'https://orcid.org/0000-0000-0000-0000'
-    affiliation: >-
-      Faculty of Economic and Management Sciences,
-      North-West University, Mafikeng Campus, South Africa
+    affiliation: "North-West University, South Africa"
+license: CC-BY-4.0
+repository-code: "https://github.com/ntebo40/IST02-IST03-JSE-Eskom-Dataset"
 keywords:
   - JSE
   - Eskom
   - hypergraph
   - financial networks
-  - infrastructure stress
-  - trophic downgrading
-  - large deviation theory
-  - adversarial detection
-  - South African financial markets
-  - physics of finance
-  - CASCADEnt
-  - VORTEX
-  - PHYSAN
   - IST-02
   - IST-03
-license: CC-BY-4.0
-version: 1.0.0
-date-released: '2026-03-08'
-repository-code: 'https://github.com/ntebo40/IST02-IST03-JSE-Eskom-Dataset'
+  - PHYSAN
+  - CASCADEnt
