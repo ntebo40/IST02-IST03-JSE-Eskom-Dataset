@@ -163,3 +163,36 @@ https://doi.org/10.5281/zenodo.XXXXXXX
 ## License
 
 Released under [CC-BY-4.0](LICENSE). Free to use, share, and adapt with attribution.
+
+# IST Series: Financial Metabolomics – Infrastructure‑Stressed Financial Networks and Thermodynamic Deep Learning
+
+This deposit contains data, code, and supplementary materials for multiple research papers using the JSE–Eskom infrastructure‑coupled dataset. All materials are released under CC‑BY‑4.0.
+
+## Repository Structure
+
+- **`paper1_gws_stnet/`** – Code and data for Paper 1: Gaussian‑Weighted Swin Networks with Contractive Attention and Metabolic Saliency (JSE panel, 87 securities, 2,731 days).  
+- **`paper2_metabolic_saliency/`** – Code for Paper 2: Metabolic Saliency as a KL‑Divergence Estimator (KSG, STIF, bootstrap).  
+- **`paper3_fractal/`** – Placeholder for Paper 3: Fractal Conservation Law.  
+- **`wow_e_w_quadrilogy/`** – Code and data for the earlier Quadrilogy papers (MS‑GARCH, GRU, Riemannian TDA, PPO portfolio).  
+- **`ist02_trophic/`** – Code for IST‑02 trophic hypergraph analysis (optional).  
+- **`ist03_physan/`** – Code for IST‑03 PHYSAN adversarial detector (optional).  
+- **`README.md`** – This file.  
+- **`CITATION.cff`** – Citation metadata.
+
+## Dataset
+
+The JSE–Eskom dataset is located in `paper1_gws_stnet/data/`. It includes aggregated sector‑level returns, volumes, realised variances, and aligned Eskom load‑shedding stages (Jan 2015 – Dec 2025). Raw individual security data are proprietary and not redistributed.
+
+## Usage
+
+See each paper’s subdirectory for installation instructions and example commands.
+
+## License
+
+Creative Commons Attribution 4.0 International (CC‑BY‑4.0).
+
+## Citation
+
+If you use this deposit, please cite:
+
+> Moroke, N.D. (2026). IST Series: Financial Metabolomics – Infrastructure‑Stressed Financial Networks and Thermodynamic Deep Learning. Zenodo. https://doi.org/10.5281/zenodo.19072906
