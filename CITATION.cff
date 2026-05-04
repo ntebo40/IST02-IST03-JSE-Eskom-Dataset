@@ -1,21 +1,45 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
-title: "IST02-IST03 JSE-Eskom Infrastructure-Coupled Financial Network Dataset"
-version: 1.0.2
-date-released: 2026-03-08
+title: "JSE 7-Asset Infrastructure-Stressed Financial Panel (2015-2026)"
+abstract: >
+  Daily log-returns for seven South African asset classes (equity, fixed income,
+  commodities, currency, real estate) and Eskom load-shedding stages (0-6),
+  spanning N=2,838 JSE trading days from January 2015 to April 2026.
+  Constructed for the study of infrastructure-stress-induced phase transitions
+  in financial market covariance geometry.
 authors:
-  - family-names: Moroke
-    given-names: Ntebogang Dinah
-    affiliation: "North-West University, South Africa"
-license: CC-BY-4.0
+  - family-names: "Moroke"
+    given-names: "Ntebogang Dinah"
+    orcid: "https://orcid.org/0000-0001-8545-1860"
+    affiliation: "North-West University, Faculty of Economic and Management Sciences"
+    country: ZA
+doi: 10.5281/zenodo.18925609
+date-released: "2026-05-05"
+version: "1.0.0"
 repository-code: "https://github.com/ntebo40/IST02-IST03-JSE-Eskom-Dataset"
+url: "https://doi.org/10.5281/zenodo.18925609"
+license: CC-BY-4.0
 keywords:
   - JSE
+  - South Africa
+  - load-shedding
+  - econophysics
+  - phase transition
+  - covariance geometry
+  - random matrix theory
   - Eskom
-  - hypergraph
-  - financial networks
-  - IST-02
-  - IST-03
-  - PHYSAN
-  - CASCADEnt
+  - financial markets
+  - statistical mechanics
+references:
+  - type: article
+    title: >
+      Constraint-Induced Phase Transitions in Financial Markets:
+      A Statistical Mechanics Analysis of Infrastructure Stress on the JSE
+    authors:
+      - family-names: "Moroke"
+        given-names: "Ntebogang Dinah"
+        orcid: "https://orcid.org/0000-0001-8545-1860"
+    journal: "Physica A: Statistical Mechanics and its Applications"
+    year: 2026
+    status: submitted
